@@ -1,10 +1,14 @@
 /* Book solutions 'C Programming - Beginner to Expert in 100 questions (Ansh Narad)'
- * Question: Write a program to print 'Hello World' on your screen */
+ * Question: Write a program to add two numbers on your screen */
 
 #include <stdio.h>
 
 int main (void)
 {
-	printf("Hello World\n");
+	int a = 1;
+	int b = 2;
+
+	printf("a + b = %d\n", a + b);
+
 	return 0;
 }
