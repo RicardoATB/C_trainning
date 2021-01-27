@@ -9,7 +9,7 @@ int main (void)
 	float i;
 	float t;
 	printf("Enter principle, rate of interest and time:\n");
-	scanf("%f\n%f\n%f", &p, &i, &t);
+	scanf("%f %f %f", &p, &i, &t);
 	printf("Simple interest is %f\n", (p*i*t)/100);
 	
 	return 0;
